@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            merry memo
 tagline:          ''
-description:      '엄청나진 않지만 대단한 것들'
+description:      '엄청나진 않지만 <br> 대단한 것들'
 url:              https://byeonghyeonjeon.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
