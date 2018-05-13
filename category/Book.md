@@ -1,7 +1,7 @@
 ---
 layout: category
 title: 느낌적인 느낌
-category: book
+category: Book
 ---
 
 Another sample category page.
