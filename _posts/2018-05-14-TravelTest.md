@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "테스트 post"
 categories: 
   - Travel
