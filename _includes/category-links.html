@@ -9,10 +9,12 @@
         <summary>
               <a class="category-link {% if page.url == node.url %} active{% endif %}"
               href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>          
-         </summary>         
+         </summary>
+        {% if node.child != null %}
          <a class="category-link {% if page.url == node.url %} active{% endif %}"
               href="{{ site.baseurl }}{{ node.url }}">&emsp;&emsp;{{ node.child }}</a>         
         </details>
+        {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
