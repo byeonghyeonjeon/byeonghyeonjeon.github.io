@@ -7,11 +7,12 @@
     {% if node.layout == "category" %}
       <details>
         <summary>
-          <a class="category-link {% if page.url == node.url %} active{% endif %}"
-              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          Test
          </summary>
          <br>
-         Test
+         <a class="category-link {% if page.url == node.url %} active{% endif %}"
+              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+         
         </details>
     {% endif %}
   {% endif %}
