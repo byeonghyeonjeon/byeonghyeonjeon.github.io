@@ -1,8 +1,9 @@
 ---
 layout: category
 title: 전략적인 공부
-category: Study
-child: 리눅스
+category: Linux
+root: Study
+tmp: Study
 
 ---
 
