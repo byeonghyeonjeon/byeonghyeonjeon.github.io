@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: [11분] p.80, 86, 88
+title: <11분> p.80, 86, 88
 categories: 
   - Book
 tags:
