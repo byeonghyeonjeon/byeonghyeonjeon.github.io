@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: <11분_Paulo Coelho> p.
+title: <11분_Paulo Coelho> p.177
 categories: 
   - Book
 tags:
