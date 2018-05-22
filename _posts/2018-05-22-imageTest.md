@@ -10,4 +10,5 @@ tags:
 ---
 
 
-![test](C:/Users\Public/Pictures/Lighthouse.jpg "예리")
+![chrysanthemum](https://user-images.githubusercontent.com/38278723/40340799-145c4366-5dbc-11e8-85b0-51e902f29fa9.jpg)
+
