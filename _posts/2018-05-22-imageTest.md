@@ -10,4 +10,4 @@ tags:
 ---
 
 ??
-![test](C:\Users\JBH\Pictures\2018VisionBoard\yeahlee.jpg "예리")
+![test](C:/Users/Public/Pictures/Sample/Desert.jpg Pictures "예리")
