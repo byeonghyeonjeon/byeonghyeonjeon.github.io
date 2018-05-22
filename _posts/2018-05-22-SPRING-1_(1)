@@ -1,0 +1,44 @@
+---
+layout: post
+comments: true
+title: Spring IoC(DI)란?
+categories: 
+  - Study
+tags:
+  - spring
+---
+<h3>제어반전(inversion of Control, IoC)</h3>
+ 전통적인 프로그래밍에서는 개발자가 작성한 프로그램이 외부 라이브러리의 코드를 호출해서 이용했다.<br>
+ 제어 반전은 이와 반대로 외부 라이브러리 코드가 개발자의 코드를 호출하게 된다.<br>
+ 즉, 제어권이 프레임워크에게 있어 필요에 따라 스프링 프레임워크가 사용자의 코드를 호출한다
+ 
+ <h3>FrameWork와 library의 차이</h3>
+  <h4>Libaray</h4>
+   <ul>
+    <li>프로그램 호출에 의한 제어</li>
+    <li>정해진 대로 사용한다.</li>
+    <li>원본 Libaray 재정의 가능</li>
+   </ul>
+   
+   <h4>FrameWork</h4>
+   <ul>
+    <li>프로그램의 흐름이 프레임워크에 의해 제어</li>
+    <li>기능 확장 가능</li>
+    <li>프레임워크 자체는 수정 불가</li>
+   </ul>
+   
+   <h4>프레임워크를 사용하는 이유</h4>   
+   1. 시스템의 기능외에 필요한 비기능 요소들을 제공받을 수 있다.<br>
+    -> 시스템 구축시마다 반목적으로 비기능 요소를 구현할 필요가 없다.<br>
+    비기능 : DB connection관리, transaction 제어<br>
+    기능 : 인사시스템의 사원 정보 저장/조회/변경, 상담 시스템의 상담 내용 입력<br>   
+   2. 비지니스 로직 구현에 집중할 수 있다.<br>
+   3. 비기능 요소들을 직접 구현할 필요가 없다<br><br>
+   
+   --> 개발자들이 비지니스 로직에만 집중 할 수 있도록 기반 환경을 제공<br><br>
+   
+   <h4>Spring FrameWork Feature</h4>
+   <img src="https://user-images.githubusercontent.com/38278723/40341788-1337c77a-5dc2-11e8-8a22-f360d87f9c91.PNG"/>
+
+   
+   
