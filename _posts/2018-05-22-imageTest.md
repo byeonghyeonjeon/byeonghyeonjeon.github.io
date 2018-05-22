@@ -9,5 +9,5 @@ tags:
  
 ---
 
-??
-![test](C:/Users/Public/Pictures/Sample/Desert.jpg Pictures "예리")
+
+![test](C:/Users\Public/Pictures/Lighthouse.jpg "예리")
